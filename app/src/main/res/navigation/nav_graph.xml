@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/storeListFragment">
+
+    <fragment
+        android:id="@+id/storeListFragment"
+        android:name="com.god_brain.example.ui.view_01_store_list.StoreListFragment"
+        android:label="商品列表"/>
+
+</navigation>
